@@ -4,6 +4,13 @@
 
 Программа работает в экосистеме **ROS 2** и использует `cyphal_ros2_bridge` для прямого взаимодействия с аппаратными компонентами ровера: встроенной кнопкой пользователя (`/user_button`) и звуковым излучателем (`/hmi/beep`) [[2]].
 
+## Быстрая установка
+```Bash
+git clone https://github.com/ch1brikess/BRover-E5-Timer.git && cd BRover-E5-Timer
+sudo chmod +x install.sh && sudo chmod +x uninstall.sh
+./install.sh
+```
+
 ## Особенности
 
 - ⏰ **Гибкая настройка**: Время срабатывания задаётся в простом JSON-файле.
